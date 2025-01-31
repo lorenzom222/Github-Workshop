@@ -18,8 +18,8 @@
 
 ## Prerequisites
 - A **GitHub** account ([Sign up here](https://github.com/))
-- Ensure Git is installed on your machine ([Download here](https://git-scm.com/))
-- A code editor (e.g., **VS Code**, **Notepad++**, **Sublime Text**, etc)
+- Ensure Git is installed on your machine ([Download here](https://git-scm.com/downloads))
+- A code editor (e.g., **VS Code**, **Notepad++**, **Sublime Text**, etc) :shipit:: I like me sum VS Code... give a try wontcha
 
 ## Getting Started
 
@@ -116,7 +116,7 @@ Choose one approach when working with a repository, not both.
 2. Add the SSH key to GitHub ([Guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)).
 3. Clone the repository using SSH:
    ```bash
-   git clone git@github.com:your-username/Github-Workshop.git
+   git clone git@github.com:lorenzom222/Github-Workshop.git
    ```
 4. Navigate to the project directory:
    ```bash
