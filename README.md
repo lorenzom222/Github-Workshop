@@ -1,8 +1,8 @@
 # Github-Workshop
 
-:shipit:: Helloooooo and welcome to the **GitHub Workshop**...
+:shipit:: *Aye tuts*, cmon here... join me for this Github Workshop wontcha
 
-:shipit:: I'm your host, Lorenzo, and today we will be getting you guys going with **Git/GitHub**... please join us... *unless your a fraidy-cat?*
+:shipit:: Youze can call me Lorenzo, and today I'll be showing you the ropes for **Git/GitHub**... please join us... *unless your a fraidy-cat?*
 
 ![cool cats](https://private-user-images.githubusercontent.com/74038190/240820725-a754eac4-5a8b-4e8f-922b-aff555400790.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzgzNDY2NjIsIm5iZiI6MTczODM0NjM2MiwicGF0aCI6Ii83NDAzODE5MC8yNDA4MjA3MjUtYTc1NGVhYzQtNWE4Yi00ZThmLTkyMmItYWZmNTU1NDAwNzkwLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTMxVDE3NTkyMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTk3ZmNiOWQ1NjJhNTlkZjQ1ZjE3Nzc0ZGJkYmUyODg5NjUzYWU1ODVkOTgyY2U4OGE1MzAyNjdjY2Q2NmJlODgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.uBBbwEGNcAqe0HQtrvfETca-ShcjiQFNxjjzvWQkD-o)
 
