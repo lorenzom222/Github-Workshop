@@ -88,7 +88,7 @@ Choose one approach when working with a repository, not both.
 ### Step 5: HTML Setup
 1. Clone this repository using HTTPS:
    ```bash
-   git clone https://github.com/your-username/Github-Workshop.git
+   git clone https://github.com/lorenzom222/Github-Workshop.git
    ```
 2. Navigate to the project directory:
    ```bash
