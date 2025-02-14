@@ -62,9 +62,9 @@ GitHub is an online service that **hosts your repositories** and makes collabora
    ```bash
    git --version
    ```
-2. If for whatever godforsaken reason Git is not installed, get a new laptop or download and install it from [git-scm.com](https://git-scm.com/).
+2. Windows doesn't come preinstall with git. So, download and install it from [git-scm.com](https://git-scm.com/).
+   1. Also need to figure out Xcode for mac in order to use Git.
 
-![No Git](https://c.tenor.com/b4RoQd-nV94AAAAC/tenor.gif)
 
 ### Step 3: Basic Git Commands (Local Repository Management)
 Before working with **GitHub**, it's essential to understand how **Git** works locally. These step-by-step instructions will help you manage your repository on **macOS, Linux, and Windows**.
