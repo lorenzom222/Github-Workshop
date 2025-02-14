@@ -111,7 +111,9 @@ GitHub allows you to interact with repositories using different authentication m
   - Works on any network without additional configuration.
   - Great for beginners.
 - **Cons:**
-  - Requires entering credentials (or a personal access token) for each `push`.
+  - ~~Requires entering credentials (or a personal access token) for each `push`.~~
+  - You **NEED** personal access token for each `push`
+     - *No more login because insecure???*
   - May have authentication issues if multi-factor authentication (MFA) is enabled.
 
 #### SSH Approach:
@@ -121,6 +123,7 @@ GitHub allows you to interact with repositories using different authentication m
   - Ideal for frequent Git users who interact with repositories regularly.
 - **Cons:**
   - Requires additional setup (generating and adding SSH keys).
+     > :shipit:: But since we are grown up big physicist, we are going to do this...
 
 Choose one approach when working with a repository, not both.
 
