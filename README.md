@@ -1,8 +1,8 @@
 # Github-Workshop
 
-:shipit:: *Aye tuts*, cmon here... join me for this Github Workshop wontcha
+:shipit:: Hellloooooooo and welcome to my **Github/Git** Workshop!
 
-:shipit:: Youze can call me Lorenzo, and today I'll be showing you the ropes for **Git/GitHub**... please join us... *unless your a fraidy-cat?*
+:shipit:: My name is Lorenzo, and today I'll be showing you the ropes for the for very very basic of git so you can be cool. Please join us... *unless your a fraidy-cat?*
 
 ![cool cats](https://c.tenor.com/muDKReI2icIAAAAd/tenor.gif)
 
@@ -16,7 +16,8 @@
 2. Getting youze guys situated on GitHub
 3. Installing Git (if needed... but it's 2025)
 4. Babie Git Commands (Working locally)
-5. HTML vs. SSH Approaches > More importantly why SSH is superior
+5. HTML vs. SSH Approaches
+   > :shipit:: More importantly why SSH is superior
 6. HTML Setup
 7. SSH Setup
 8. Playing with Remote Repos
@@ -41,7 +42,7 @@ GitHub is an online service that **hosts your repositories** and makes collabora
 - **GitHub uses Git** behind the scenes—think of Git as the engine and GitHub as the fancy dashboard.
 
 
-## WHAT YOU NEED BEFORE
+## WHAT YOU NEED BEFORE 🛑
 - A computer that works... duh
 - Know how to open your terminal... or powershell if your on windows ig
 - A code editor (e.g., **VS Code**, **Notepad++**, **Sublime Text**, **Wattpad??**)
