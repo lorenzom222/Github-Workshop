@@ -14,7 +14,7 @@
 1. WTF is Git & GitHub... aren't they the same thing???
    > :shipit: No, you idiot—version control!
 2. Getting youze guys situated on GitHub
-3. Installing Git (if needed... but it's 2025)
+3. Installing Git ~~(if needed... but it's 2025)~~ IMPORTANT FOR WINDOWS USERS
 4. Babie Git Commands (Working locally)
 5. HTML vs. SSH Approaches
    > :shipit:: More importantly why SSH is superior
