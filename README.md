@@ -82,7 +82,7 @@ Before working with **GitHub**, it's essential to understand how **Git** works l
    > :shipit: Innit bruv! 🤌
 3. Create a new file in that folder and put some stuff innit, for example:
    ```bash
-   echo "Hello freaks and geeks!" > yuh.py
+   echo "Hello freaks and geeks" > yuh.py
    ```
 4. Check repository status:
    ```bash
