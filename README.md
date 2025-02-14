@@ -4,61 +4,99 @@
 
 :shipit:: Youze can call me Lorenzo, and today I'll be showing you the ropes for **Git/GitHub**... please join us... *unless your a fraidy-cat?*
 
-![cool cats](https://private-user-images.githubusercontent.com/74038190/240820725-a754eac4-5a8b-4e8f-922b-aff555400790.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzkwNTU3OTIsIm5iZiI6MTczOTA1NTQ5MiwicGF0aCI6Ii83NDAzODE5MC8yNDA4MjA3MjUtYTc1NGVhYzQtNWE4Yi00ZThmLTkyMmItYWZmNTU1NDAwNzkwLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjA4VDIyNTgxMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWVhMTcxNGQ4NTEyODkxNTU3N2I3MzFiY2YwNjg1MzJmN2E5MjM5MGJhNGUzNDM1ZGYxZDFjMTM4MDlmOGVjYzUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.qebQj9k5rgDprn7n5g9qAvDa3oEClZSps6ecsnw_Arc)
+![cool cats](https://c.tenor.com/muDKReI2icIAAAAd/tenor.gif)
+
+
+
 
 
 ## Agenda
-1. Setting up a GitHub Account
-2. Installing Git (if needed)
-3. Basic Git Commands (Working locally)
-4. HTML vs. SSH Approaches
-5. HTML Setup
-6. SSH Setup
-7. Playing with Remote Repos
+1. WTF is Git & GitHub... aren't they the same thing???
+   > :shipit: No, you idiot—version control!
+2. Getting youze guys situated on GitHub
+3. Installing Git (if needed... but it's 2025)
+4. Babie Git Commands (Working locally)
+5. HTML vs. SSH Approaches > More importantly why SSH is superior
+6. HTML Setup
+7. SSH Setup
+8. Playing with Remote Repos
 
-## Prerequisites
-- A **GitHub** account ([Sign up here](https://github.com/))
-- Ensure Git is installed on your machine ([Download here](https://git-scm.com/downloads))
-- A code editor (e.g., **VS Code**, **Notepad++**, **Sublime Text**, etc) :shipit:: I like me sum VS Code... give a try wontcha
 
-## Getting Started
+
+## What is Git? 🌲
+- Git is a version control system.
+- Make creates repositories (repos), which are like folders that contain your project and track its changes.
+- Repos = Containers that store all your code and its history of changes
+- Basically, if someone changes a file (like opens a document and writes stuff in it -- like poop -- changes a line of code, or so on) it records the differences between the new version and the old version, and maintains a history.
+- You can also do things like branching for collabing with folks, which allows for friends to work on the same thing without interfering with one another.
+- Then subsequently merge each branch changes together into a single version at the end of the day.
+   > :shipit:: I like to think of it as an awesome tree, where the main code is the trunk and the branches are different experimental versions.
+   > Each branch can grow on it's, but they can be merged back together to form a big stick... tree dont really do that tho...
+
+ 
+### Git 🌲 vs. GitHub 🐙: How Are They Related?
+GitHub is an online service that **hosts your repositories** and makes collaboration easy.
+- **GitHub** = Website to host your repos (trees) for version control. Like a forest of trees.
+- **Git** = Command-line software handling version control on your local machine.
+- **GitHub uses Git** behind the scenes—think of Git as the engine and GitHub as the fancy dashboard.
+
+
+## WHAT YOU NEED BEFORE
+- A computer that works... duh
+- Know how to open your terminal... or powershell if your on windows ig
+- A code editor (e.g., **VS Code**, **Notepad++**, **Sublime Text**, **Wattpad??**)
+   > :shipit:: I like me sum VS Code... but if ur into souls-like... try sum Vim hehehehehe
+- _Optional_: A couple of brain cells
+   > :shipit:: ... cmon who are we kidding
+
+## Let's gooooo :octocat::
 
 ### Step 1: Setting Up a GitHub Account
 1. Go to [GitHub](https://github.com/) and sign up for an account.
 2. Verify your email and set up your profile.
+   > :shipit:: Make a cool username to really mog on other programmers 🦾
 
 ### Step 2: Installing Git
 1. Check if Git is installed:
    ```bash
    git --version
    ```
-2. If Git is not installed, download and install it from [git-scm.com](https://git-scm.com/).
+2. If for whatever godforsaken reason Git is not installed, get a new laptop or download and install it from [git-scm.com](https://git-scm.com/).
+
+![No Git](https://c.tenor.com/b4RoQd-nV94AAAAC/tenor.gif)
 
 ### Step 3: Basic Git Commands (Local Repository Management)
 Before working with **GitHub**, it's essential to understand how **Git** works locally.
 
 1. Initialize a new Git repository:
    ```bash
-   git init my-project
-   cd my-project
+   git init my-super-awesome-cool-project
+   cd my-super-awesome-cool-project
    ```
-2. Create a new file:
+   or just
    ```bash
-   echo "Hello, Git!" > file.txt
+   cd my-other-super-awesome-cool-project
+   git init
    ```
-3. Check repository status:
+   > :shipit: Innit bruv! 🤌
+3. Create a new file in that folder and put some stuff innit, for example:
+   ```bash
+   echo "Hello freaks and geeks!" > yuh.py
+   ```
+4. Check repository status:
    ```bash
    git status
    ```
-4. Add changes to the staging area:
+5. Add changes to the staging area:
    ```bash
-   git add file.txt
+   git add yuh.py
    ```
-5. Commit changes:
+6. COMMIT changes:
    ```bash
-   git commit -m "Initial commit"
+   git commit -m "top of the morning"
    ```
-6. View commit history:
+   > :shipit:: dont be afraid of commitment, you can always go back
+7. View commit history:
    ```bash
    git log
    ```
